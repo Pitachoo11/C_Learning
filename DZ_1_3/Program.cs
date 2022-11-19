@@ -7,4 +7,4 @@
 Console.WriteLine("Введите произвольное число:");
 int number1 = int.Parse(Console.ReadLine());
 
-Console.WriteLine(number1 % 2 == 0 ? "Четное" : "Нечетное");
+Console.WriteLine(number1 % 2 == 0 ? "Да" : "Нет");
