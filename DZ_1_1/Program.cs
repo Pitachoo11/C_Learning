@@ -17,7 +17,7 @@ else if (number1 < number2)
 {
     System.Console.WriteLine($"Число {number2} больше {number1}");
 }
-else if (number1 == number2)
+else
 {
     System.Console.WriteLine($"Числа {number1} и {number2} равны");
 }
