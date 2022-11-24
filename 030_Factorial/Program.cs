@@ -1,6 +1,6 @@
 ﻿// Вычисление факториала числа N через рекурсию
 
-int Factorial(int N)
+double Factorial(int N)
 {
     if (N == 1)
     {
@@ -11,5 +11,7 @@ int Factorial(int N)
         return N * Factorial(N-1);
     }
 }
-
-System.Console.WriteLine(Factorial(5));
+for (int i = 1; i < 20; i++)
+{
+  Console.WriteLine($"{i}! = {Factorial(i)}");  
+}
